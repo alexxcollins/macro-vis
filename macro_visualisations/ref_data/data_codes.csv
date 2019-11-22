@@ -1,0 +1,55 @@
+my_code,name,provider_code,code#1,code#2,code#3,data_provider,currency,currency_2,issuer,asset_type,maturity,maturity_unit,maturity_type,unit,original_data_supplier,currency_short,currency_2_short,issuer_short,asset_type_short,maturity_short,maturity_unit_short,maturity_type_short,unit_short,notes
+egeg1ycpy,bund_1y,BUNDESBANK/BBK01_WT3400,BUNDESBANK/BBK01_WT34,0,0,quandl,eur,,germany,government_bond,1,year,constant,par_yield,bundesbank,e,,ge,g,1,y,c,py,
+egeg2ycpy,bund_2y,BUNDESBANK/BBK01_WT3401,BUNDESBANK/BBK01_WT34,0,1,quandl,eur,,germany,government_bond,2,year,constant,par_yield,bundesbank,e,,ge,g,2,y,c,py,
+egeg3ycpy,bund_3y,BUNDESBANK/BBK01_WT3402,BUNDESBANK/BBK01_WT34,0,2,quandl,eur,,germany,government_bond,3,year,constant,par_yield,bundesbank,e,,ge,g,3,y,c,py,
+egeg4ycpy,bund_4y,BUNDESBANK/BBK01_WT3403,BUNDESBANK/BBK01_WT34,0,3,quandl,eur,,germany,government_bond,4,year,constant,par_yield,bundesbank,e,,ge,g,4,y,c,py,
+egeg5ycpy,bund_5y,BUNDESBANK/BBK01_WT3404,BUNDESBANK/BBK01_WT34,0,4,quandl,eur,,germany,government_bond,5,year,constant,par_yield,bundesbank,e,,ge,g,5,y,c,py,
+egeg7ycpy,bund_7y,BUNDESBANK/BBK01_WT3406,BUNDESBANK/BBK01_WT34,0,6,quandl,eur,,germany,government_bond,7,year,constant,par_yield,bundesbank,e,,ge,g,7,y,c,py,
+egeg10ycpy,bund_10y,BUNDESBANK/BBK01_WT3409,BUNDESBANK/BBK01_WT34,0,9,quandl,eur,,germany,government_bond,10,year,constant,par_yield,bundesbank,e,,ge,g,10,y,c,py,
+egeg15ycpy,bund_15y,BUNDESBANK/BBK01_WT3439,BUNDESBANK/BBK01_WT34,,39,quandl,eur,,germany,government_bond,15,year,constant,par_yield,bundesbank,e,,ge,g,15,y,c,py,
+egeg20ycpy,bund_20y,BUNDESBANK/BBK01_WT3449,BUNDESBANK/BBK01_WT34,,49,quandl,eur,,germany,government_bond,20,year,constant,par_yield,bundesbank,e,,ge,g,20,y,c,py,
+egeg30ycpy,bund_30y,BUNDESBANK/BBK01_WT3429,BUNDESBANK/BBK01_WT34,,29,quandl,eur,,germany,government_bond,30,year,constant,par_yield,bundesbank,e,,ge,g,30,y,c,py,
+gukg5ycpy,gilt_y_5y,BOE/IUDSNPY,BOE/,IUDSNPY,,quandl,gbp,,uk,government_bond,5,year,constant,par_yield,boe,g,,uk,g,5,y,c,py,
+gukg10ycpy,gilt_y_10y,BOE/IUDMNPY,BOE/,IUDMNPY,,quandl,gbp,,uk,government_bond,10,year,constant,par_yield,boe,g,,uk,g,10,y,c,py,
+gukg20ycpy,gilt_y_20y,BOE/IUDLNPY,BOE/,IUDLNPY,,quandl,gbp,,uk,government_bond,20,year,constant,par_yield,boe,g,,uk,g,20,y,c,py,
+gukg5ycbe,gilt_be_5y,BOE/IUDSIZC,BOE/,IUDSIZC,,quandl,gbp,,uk,government_bond,5,year,constant,inflation_breakeven,boe,g,,uk,g,5,y,c,be,time series stops in May 2017
+gukg10ycbe,gilt_be_10y,BOE/IUDMIZC,BOE/,IUDMIZC,,quandl,gbp,,uk,government_bond,10,year,constant,inflation_breakeven,boe,g,,uk,g,10,y,c,be,time series stops in May 2017
+gukg20ycbe,gilt_be_20y,BOE/IUDLIZC,BOE/,IUDLIZC,,quandl,gbp,,uk,government_bond,20,year,constant,inflation_breakeven,boe,g,,uk,g,20,y,c,be,time series stops in May 2017
+gukg5ycry,gilt_ry_5y,BOE/IUDSRZC,BOE/,IUDSRZC,,quandl,gbp,,uk,government_bond,5,year,constant,real_yield,boe,g,,uk,g,5,y,c,ry,time series stops in May 2017
+gukg10ycry,gilt_ry_10y,BOE/IUDMRZC,BOE/,IUDMRZC,,quandl,gbp,,uk,government_bond,10,year,constant,real_yield,boe,g,,uk,g,10,y,c,ry,time series stops in May 2017
+gukg20ycry,gilt_ry_20y,BOE/IUDLRZC,BOE/,IUDLRZC,,quandl,gbp,,uk,government_bond,20,year,constant,real_yield,boe,g,,uk,g,20,y,c,ry,time series stops in May 2017
+gukg5yczy,gilt_zc_5y,BOE/IUDSNZC,BOE/,IUDSNZC,,quandl,gbp,,uk,government_bond,5,year,constant,zero_coupon_yield,boe,g,,uk,g,5,y,c,zy,
+gukg10yczy,gilt_zc_10y,BOE/IUDMNZC,BOE/,IUDMNZC,,quandl,gbp,,uk,government_bond,10,year,constant,zero_coupon_yield,boe,g,,uk,g,10,y,c,zy,
+gukg20yczy,gilt_zc_20y,BOE/IUDLNZC,BOE/,IUDLNZC,,quandl,gbp,,uk,government_bond,20,year,constant,zero_coupon_yield,boe,g,,uk,g,20,y,c,zy,
+gukr1dcpy,gilt_repo_on,BOE/IUDGRON,BOE/IUDGR,ON,,quandl,gbp,,uk,repo,1,day,constant,par_yield,boe,g,,uk,r,1,d,c,py,time series stops in May 2018
+gukr1wcpy,gilt_repo_1w,BOE/IUDGR1W,BOE/IUDGR,1W,,quandl,gbp,,uk,repo,1,week,constant,par_yield,boe,g,,uk,r,1,w,c,py,time series stops in May 2018
+gukr2wcpy,gilt_repo_2w,BOE/IUDGR2W,BOE/IUDGR,2W,,quandl,gbp,,uk,repo,2,week,constant,par_yield,boe,g,,uk,r,2,w,c,py,time series stops in May 2018
+gukr1mcpy,gilt_repo_1m,BOE/IUDGR1M,BOE/IUDGR,1M,,quandl,gbp,,uk,repo,1,month,constant,par_yield,boe,g,,uk,r,1,m,c,py,time series stops in May 2018
+gukr3mcpy,gilt_repo_3m,BOE/IUDGR3M,BOE/IUDGR,3M,,quandl,gbp,,uk,repo,3,month,constant,par_yield,boe,g,,uk,r,3,m,c,py,time series stops in May 2018
+gukr6mcpy,gilt_repo_6m,BOE/IUDGR6M,BOE/IUDGR,6M,,quandl,gbp,,uk,repo,6,month,constant,par_yield,boe,g,,uk,r,6,m,c,py,time series stops in May 2018
+gukr1ycpy,gilt_repo_1y,BOE/IUDGR1Y,BOE/IUDGR,1Y,,quandl,gbp,,uk,repo,1,year,constant,par_yield,boe,g,,uk,r,1,y,c,py,time series stops in May 2018
+guks1dcpy,boe_base,BOE/IUDBEDR,BOE/IUDBEDR,,,quandl,gbp,,uk,rate,1,day,constant,par_yield,boe,g,,uk,s,1,d,c,py,
+uhycos,baml_hy_oas,BAMLH0A0HYM2,,,,fred,usd,,high_yield,corporate_bond,,none,none,OAS,BAML,u,,hy,c,,,,os,
+udnfp_total,nfp_total,PAYEMS,,,,fred,usd,,none,data,,none,none,none,bls,u,,,d,,,nfp_total,,
+egx,eurgbp,BOE/XUDLSER,BOE/,XUDLSER,,quandl,eur,gbp,none,fx,,none,none,none,boe,e,g,,x,,,,,
+yux,cnyusd,BOE/XUDLBK73,BOE/,XUDLBK73,,quandl,cny,usd,none,fx,,none,none,none,boe,y,u,,x,,,,,
+cux,cadusd,BOE/XUDLCDD,BOE/,XUDLCDD,,quandl,cad,usd,none,fx,,none,none,none,boe,c,u,,x,,,,,
+jux,jpyusd,BOE/XUDLJYD,BOE/,XUDLJYD,,quandl,jpy,usd,none,fx,,none,none,none,boe,j,u,,x,,,,,
+gux,gbpusd,BOE/XUDLGBD,BOE/,XUDLGBD,,quandl,gbp,usd,none,fx,,none,none,none,boe,g,u,,x,,,,,
+eux,eurusd,BOE/XUDLERD,BOE/,XUDLERD,,quandl,eur,usd,none,fx,,none,none,none,boe,e,u,,x,,,,,
+uisp500,S&P500,SP500,SP500,,,fred,usd,,none,index,,none,none,none,s&p,u,,,i,,,sp500,,
+umgold,gold,GOLDPMGBD228NLBM,GOLDPMGBD228NLBM,,,fred,usd,,none,commodity,,none,none,none,,u,,,m,,,gold,,
+umcopper,copper,CHRIS/CME_HG2,CHRIS/,CME_HG2,,quandl,usd,,none,commodity,,none,none,none,,u,,,m,,,copper,,
+#N/A,,,,,,,,,,,,,,,,#N/A,,#N/A,#N/A,,#N/A,#N/A,#N/A,
+#N/A,,,,,,,,,,,,,,,,#N/A,,#N/A,#N/A,,#N/A,#N/A,#N/A,
+#N/A,,,,,,,,,,,,,,,,#N/A,,#N/A,#N/A,,#N/A,#N/A,#N/A,
+#N/A,,,,,,,,,,,,,,,,#N/A,,#N/A,#N/A,,#N/A,#N/A,#N/A,
+#N/A,,,,,,,,,,,,,,,,#N/A,,#N/A,#N/A,,#N/A,#N/A,#N/A,
+#N/A,,,,,,,,,,,,,,,,#N/A,,#N/A,#N/A,,#N/A,#N/A,#N/A,
+#N/A,,,,,,,,,,,,,,,,#N/A,,#N/A,#N/A,,#N/A,#N/A,#N/A,
+#N/A,,,,,,,,,,,,,,,,#N/A,,#N/A,#N/A,,#N/A,#N/A,#N/A,
+#N/A,,,,,,,,,,,,,,,,#N/A,,#N/A,#N/A,,#N/A,#N/A,#N/A,
+#N/A,,,,,,,,,,,,,,,,#N/A,,#N/A,#N/A,,#N/A,#N/A,#N/A,
+#N/A,,,,,,,,,,,,,,,,#N/A,,#N/A,#N/A,,#N/A,#N/A,#N/A,
+,,,,,,,,,,,,,,,,,,,,,,,,
+0,,,,,,,,,,,,,,,,,,0,,,,,,

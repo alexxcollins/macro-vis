@@ -1,0 +1,6 @@
+window_length,min_periods,half_life
+5,3,2.5
+10,7,5
+30,25,15
+90,80,45
+180,160,90
